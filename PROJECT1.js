@@ -1430,9 +1430,9 @@ p.nominalBounds = new cjs.Rectangle(4.6,-1.5,203.4,179.9);
 	this.frame_0 = function() {
 		var self = this;
 		self.stop();
-		createjs.Sound.registerSound("/sounds/wow.mp3","wow");
-		createjs.Sound.registerSound("/sounds/nature.mp3","nature");
-		createjs.Sound.registerSound("/sounds/heroic.mp3","heroic");
+		createjs.Sound.registerSound("/finaleanimation/sounds/wow.mp3","wow");
+		createjs.Sound.registerSound("/finaleanimation/sounds/nature.mp3","nature");
+		createjs.Sound.registerSound("/finaleanimation/sounds/heroic.mp3","heroic");
 		
 		
 		self.startBTN.addEventListener("click", clickPlayStart);
