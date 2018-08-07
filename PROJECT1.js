@@ -1455,7 +1455,7 @@ p.nominalBounds = new cjs.Rectangle(4.6,-1.5,203.4,179.9);
 		createjs.Sound.play("wow");
 	}
 	this.frame_28 = function() {
-		createjs.Sound.registerSound("/sounds/haertbeat.mp3","heartbeat");
+		createjs.Sound.registerSound("/finaleanimation/sounds/haertbeat.mp3","heartbeat");
 	}
 	this.frame_191 = function() {
 		createjs.Sound.stop("wow");
